@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 206.5 67.55">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: #eba66a;
+      }
+
+      .cls-6 {
+        fill: #231f20;
+      }
+
+      .cls-2 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-7 {
+        font-family: Bahnschrift, Bahnschrift;
+        font-size: 36px;
+        font-variation-settings: 'wght' 400, 'wdth' 100;
+      }
+
+      .cls-5 {
+        stroke: #fff;
+      }
+
+      .cls-5, .cls-8 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-8 {
+        fill: #fff;
+        stroke: #eba66a;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <text class="cls-7"><tspan class="cls-4" x="0" y="53.24">B</tspan><tspan class="cls-2" x="22.71" y="53.24">O</tspan><tspan class="cls-1" x="45.25" y="53.24">O</tspan><tspan class="cls-3" x="68.13" y="53.24">K</tspan><tspan class="cls-6" x="91.23" y="53.24" xml:space="preserve">    </tspan><tspan class="cls-3" x="129.9" y="53.24">ARK</tspan></text>
+      <g>
+        <polygon class="cls-8" points="97.82 53.49 122.18 53.49 122.18 14.42 110.01 24.21 97.82 14.42 97.82 53.49"/>
+        <polygon class="cls-5" points="100.33 19.75 100.33 51.38 119.66 51.38 119.66 19.75 110 28.29 100.33 19.75"/>
+      </g>
+    </g>
+  </g>
+</svg>
