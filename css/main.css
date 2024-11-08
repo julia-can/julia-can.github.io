@@ -2,27 +2,9 @@
 
 /*COLOUR VARIABLES*/
 :root {
-  --main-navy: rgb(43, 68, 197);
+  --main-navy: rgb(0, 150, 209);
   --background-color: rgb(255, 250, 247);
-  --main-orange: rgb(253, 152, 2);
 }
-
-/*rgb(43, 68, 197)*/
-
-/*headings 
-font-family: "Playfair Display", serif;
-  font-size: 60px;
-  font-weight: 500;
-  text-align: center;
-  margin: 0;
-  position: relative;
-  top: 330px;
-  left: 285px;
-  transform: rotate(90deg);
-  color: var(--main-navy);
-  z-index: 1;
-  animation: slideInFromTop 1s ease-out;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);*/
 
 /*HTML*/
 
@@ -65,14 +47,14 @@ body {
 
 /* Welcome to heading styles */
 .welcome-to-heading {
-  font-family: "Fairplay Display", serif;
+  font-family: "Playfair Display", serif;
   font-size: 85px;
   font-weight: 500;
   text-align: center;
   margin: 0;
   position: absolute;
-  top: 135px;
-  left: 270px;
+  top: 108px;
+  left: 660px;
   color: var(--main-navy);
   z-index: 1;
   animation: slideInFromLeft 1s ease-out; /* Add animation */
@@ -82,16 +64,16 @@ body {
 
 /* My portfolio heading styles */
 .my-portfolio-heading {
-  font-family: "Fairplay Display", serif;
-  font-size: 60px;
+  font-family: "Playfair Display", serif;
+  font-size: 62px;
   font-weight: 500;
   text-align: center;
   margin: 0;
   position: relative;
-  top: 330px;
-  left: 285px;
+  top: 250px;
+  left: 280px;
   transform: rotate(90deg);
-  color: var(--main-orange);
+  color: var(--main-navy);
   z-index: 1;
   animation: slideInFromTop 1s ease-out; /* Use the new animation */
   /* Add text shadow */
@@ -110,12 +92,6 @@ body {
   width: 500px;
   display: block;
 }
-/* Hero Images Container */
-.hero-images-container {
-  display: flex; /* Use Flexbox for horizontal alignment */
-  align-items: center; /* Center images vertically within the container */
-  gap: 20px; /* Optional: space between the two images */
-}
 
 /* HEADER */
 header {
@@ -127,11 +103,12 @@ header {
   padding-right: 20px; /* Optional padding for spacing */
 }
 
-/* LOGO */
+/* LOGO 
 .logo {
   width: 100px;
   padding-left: 20px;
 }
+  */
 
 /* MENU */
 .menu-ul {
@@ -143,10 +120,10 @@ header {
 
 /* Menu items */
 .menu-li {
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 500;
-  color: var(--main-navy);
+  color: black;
   margin-left: 2rem; /* Space between menu items */
   margin-right: 4rem;
 }
@@ -167,9 +144,9 @@ footer {
 .copyright-paragraph {
   font-size: 15px;
   margin-top: 32px;
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
-  color: var(--main-navy);
+  color: black;
   margin-top: 100px;
 }
 
@@ -200,7 +177,6 @@ footer {
 }
 
 .projects-headings:hover {
-  background-color: var(--main-orange); /*Maybe remove later*/
   transform: scale(1.05);
 }
 
