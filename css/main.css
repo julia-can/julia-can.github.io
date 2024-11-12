@@ -2,7 +2,7 @@
 
 /*COLOUR VARIABLES*/
 :root {
-  --main-navy: rgb(0, 150, 209);
+  --main-navy: rgb(0, 121, 168);
   --background-color: rgb(255, 250, 247);
 }
 
@@ -161,8 +161,8 @@ footer {
 }
 
 .projects-headings {
-  font-family: "Playfair Display", serif;
-  font-size: 24px;
+  font-family: "Poppins", sans-serif; /*maybe change back to playfair display*/
+  font-size: 20px;
   color: var(--background-color);
   background-color: var(--main-navy);
   border: none;
@@ -282,14 +282,12 @@ footer {
 
 /* Styling for the frame text */
 .frame-text {
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   text-align: center; /* Center the text */
   font-size: 20px; /* Adjust font size as needed */
   margin-top: 15px; /* Space between image and text */
-  color: var(
-    --main-navy
-  ); /* Use a main color, or specify any preferred color */
+  color: black;
 }
 
 /* GRAPHIC DESIGN PAGE */
@@ -301,10 +299,10 @@ footer {
 .graphic-design-headings {
   margin: 30px 0; /* Adds vertical space between headings */
   padding: 0;
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 500;
-  color: var(--main-navy);
+  color: black;
   text-align: center;
 }
 
@@ -440,10 +438,10 @@ footer {
 .spec-heading {
   margin: 30px 0; /* Adds vertical space between headings */
   padding: 0;
-  font-family: "Playfair Display", serif;
-  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
   font-weight: 500;
-  color: var(--main-navy);
+  color: black;
   text-align: center;
   display: block; /* Removes flexbox to allow vertical stacking */
 }
