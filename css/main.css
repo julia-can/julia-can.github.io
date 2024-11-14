@@ -46,9 +46,10 @@ body {
 }
 
 /* Welcome to heading styles */
+/*
 .welcome-to-heading {
   font-family: "Playfair Display", serif;
-  font-size: 85px;
+  font-size: 56px;
   font-weight: 500;
   text-align: center;
   margin: 0;
@@ -57,21 +58,20 @@ body {
   left: 660px;
   color: var(--main-navy);
   z-index: 1;
-  animation: slideInFromLeft 1s ease-out; /* Add animation */
-
-  /* Add text shadow */
-}
+  animation: slideInFromLeft 1s ease-out;
+*/
 
 /* My portfolio heading styles */
 .my-portfolio-heading {
   font-family: "Playfair Display", serif;
-  font-size: 62px;
+  font-size: 56px;
   font-weight: 500;
+  font-style: italic; /* Makes the text italic */
   text-align: center;
   margin: 0;
   position: relative;
-  top: 250px;
-  left: 280px;
+  top: 230px;
+  left: 257px;
   transform: rotate(90deg);
   color: var(--main-navy);
   z-index: 1;
@@ -89,7 +89,7 @@ body {
 }
 
 .big-hero-image {
-  width: 500px;
+  width: 440px;
   display: block;
 }
 
@@ -103,12 +103,19 @@ header {
   padding-right: 20px; /* Optional padding for spacing */
 }
 
-/* LOGO 
+/*LOGO*/
 .logo {
-  width: 100px;
+  display: inline-block; /* Ensures text stays inline */
+  white-space: nowrap; /* Prevents wrapping to the next line */
+  width: auto; /* Adjust width automatically */
   padding-left: 20px;
+  margin-bottom: 40px;
+  font-family: "Playfair Display", serif;
+  font-size: 34px;
+  font-weight: 500;
+  color: var(--main-navy);
+  animation: slideInFromLeft 1s ease-out; /* Add animation */
 }
-  */
 
 /* MENU */
 .menu-ul {
