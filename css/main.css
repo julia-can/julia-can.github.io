@@ -2,7 +2,7 @@
 
 /*COLOUR VARIABLES*/
 :root {
-  --main-navy: rgb(0, 121, 168);
+  --main-navy: rgb(2, 150, 208);
   --background-color: rgb(255, 250, 247);
 }
 
@@ -21,18 +21,6 @@ body {
 
 /*WELCOME TO, MY PORTFOLIO Heading*/
 
-/* Welcome to heading animation */
-@keyframes slideInFromLeft {
-  0% {
-    transform: translateX(-50%); /* Start off-screen to the left */
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0); /* End at its original position */
-    opacity: 1;
-  }
-}
-
 /* My portfolio heading animation - sliding in from the top */
 @keyframes slideInFromTop {
   0% {
@@ -48,19 +36,17 @@ body {
 /* My portfolio heading styles */
 .my-portfolio-heading {
   font-family: "Playfair Display", serif;
-  font-size: 56px;
+  font-size: 42px;
   font-weight: 500;
-  font-style: italic; /* Makes the text italic */
   text-align: center;
   margin: 0;
   position: relative;
-  top: 230px;
-  left: 257px;
+  top: 115px;
+  left: 247px;
   transform: rotate(90deg);
   color: var(--main-navy);
   z-index: 1;
   animation: slideInFromTop 1s ease-out; /* Use the new animation */
-  /* Add text shadow */
 }
 
 /*Hero-images*/
@@ -75,6 +61,7 @@ body {
 .big-hero-image {
   width: 440px;
   display: block;
+  margin-top: -80px;
 }
 
 /* HEADER */
@@ -87,18 +74,16 @@ header {
   padding-right: 20px; /* Optional padding for spacing */
 }
 
-/*LOGO*/
+/* LOGO */
+.logo-container {
+  display: flex;
+  align-items: center;
+  text-decoration: none; /* Remove underline from link */
+}
+
 .logo {
-  display: inline-block; /* Ensures text stays inline */
-  white-space: nowrap; /* Prevents wrapping to the next line */
-  width: auto; /* Adjust width automatically */
-  padding-left: 20px;
-  margin-bottom: 40px;
-  font-family: "Playfair Display", serif;
-  font-size: 34px;
-  font-weight: 500;
-  color: var(--main-navy);
-  animation: slideInFromLeft 1s ease-out; /* Add animation */
+  height: 70px; /* Adjust the size of your SVG logo */
+  width: auto; /* Maintain aspect ratio */
 }
 
 /* MENU */
@@ -555,7 +540,8 @@ footer {
 .about-section {
   display: flex;
   align-items: center; /* Centers image and text vertically */
-  gap: 20px; /* Adds spacing between image and paragraph */
+  justify-content: center; /* Centers the entire content horizontally */
+  gap: 40px; /* Adds spacing between image and paragraph */
   padding: 10px;
 }
 
@@ -566,7 +552,7 @@ footer {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
   text-align: center;
   max-width: 350px; /* Sets the width of the container */
-  margin-left: 250px;
+  margin: 0; /* Remove any extra left margin for centering */
 }
 
 .about-image {
@@ -586,6 +572,7 @@ footer {
 
 .about-paragraph-container {
   max-width: 400px; /* Sets max width of the paragraph area */
+  margin: 0; /* Remove unnecessary margins */
 }
 
 .about-paragraph {
