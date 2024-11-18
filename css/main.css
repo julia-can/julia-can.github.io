@@ -22,13 +22,13 @@ body {
 /*WELCOME TO, MY PORTFOLIO Heading*/
 
 /* My portfolio heading animation - sliding in from the top */
-@keyframes slideInFromTop {
+@keyframes slideInFromLeft {
   0% {
-    transform: translateY(-50%) rotate(90deg); /* Start off-screen above */
+    transform: translateX(-10%); /* Start off-screen above */
     opacity: 0;
   }
   100% {
-    transform: translateY(0) rotate(90deg); /* End at its original position */
+    transform: translateY(0); /* End at its original position */
     opacity: 1;
   }
 }
@@ -36,17 +36,16 @@ body {
 /* My portfolio heading styles */
 .my-portfolio-heading {
   font-family: "Playfair Display", serif;
-  font-size: 42px;
+  font-size: 32px;
   font-weight: 500;
   text-align: center;
   margin: 0;
   position: relative;
-  top: 115px;
-  left: 247px;
-  transform: rotate(90deg);
+  top: -57px;
+  left: -85px;
   color: var(--main-navy);
   z-index: 1;
-  animation: slideInFromTop 1s ease-out; /* Use the new animation */
+  animation: slideInFromLeft 1s ease-out;
 }
 
 /*Hero-images*/
@@ -59,9 +58,9 @@ body {
 }
 
 .big-hero-image {
-  width: 440px;
+  width: 400px;
   display: block;
-  margin-top: -80px;
+  margin-top: -60px;
 }
 
 /* HEADER */
