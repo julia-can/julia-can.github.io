@@ -83,6 +83,7 @@ header {
 .logo {
   height: 70px; /* Adjust the size of your SVG logo */
   width: auto; /* Maintain aspect ratio */
+  padding-left: 15px;
 }
 
 /* MENU */
@@ -136,7 +137,7 @@ footer {
 }
 
 .projects-headings {
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   color: var(--background-color);
   background-color: var(--main-navy);
@@ -158,7 +159,7 @@ footer {
   outline: none;
 }
 
-/*WEB-DEVELOPMENT PAGE*/
+/* WEB-DEVELOPMENT PAGE */
 
 .image-wrapper {
   display: flex; /* Flex container for images */
@@ -183,13 +184,32 @@ footer {
   align-items: center; /* Center children horizontally */
 }
 
-/* To-Do List wrapper to center align */
-.todolist-wrapper {
-  display: flex; /* Use flex for center alignment */
-  justify-content: center; /* Center the To-Do List container */
-  width: 100%; /* Full width for wrapping */
-  margin-left: 515px; /* Move it a little more to the right */
-  margin-top: -170px; /* Move it a little up */
+/* Frame container styling */
+.frame-container {
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack content vertically */
+  align-items: center; /* Center items horizontally */
+  margin-bottom: 20px; /* Space between frames */
+}
+
+/* Styling for the frame heading */
+.frame-heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-align: center; /* Center the text */
+  font-size: 19px; /* Adjust font size */
+  margin-top: 15px; /* Space between image and heading */
+  color: var(--main-navy); /* Text color */
+}
+
+/* Styling for the frame text */
+.frame-text {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  text-align: center; /* Center the text */
+  font-size: 16px; /* Smaller font size than headings */
+  color: black; /* Text color */
+  margin-top: -10px;
 }
 
 /* Trivin logo container */
@@ -247,28 +267,11 @@ footer {
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
 }
 
-/* Frame container styling */
-.frame-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Center both image and text */
-  margin-bottom: 20px; /* Space below each frame */
-}
-
-/* Styling for the frame text */
-.frame-text {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  text-align: center; /* Center the text */
-  font-size: 20px; /* Adjust font size as needed */
-  margin-top: 15px; /* Space between image and text */
-  color: black;
-}
-
 /* GRAPHIC DESIGN PAGE */
 .graphic-design-headings-container {
   display: block; /* Removes flexbox to allow vertical stacking */
   text-align: center; /* Centers the headings in the container */
+  padding-top: 50px;
 }
 
 .graphic-design-headings {
@@ -277,7 +280,7 @@ footer {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 500;
-  color: black;
+  color: var(--main-navy);
   text-align: center;
 }
 
@@ -322,17 +325,6 @@ footer {
   text-decoration: none;
 }
 
-/* Hover effect */
-.logo-images-container img:hover {
-  transform: scale(1.1); /* Slight enlargement */
-}
-
-.tolken-logo,
-.bookmark-logo,
-.loggy-logo {
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
-}
-
 /*Print*/
 .print-images-container {
   display: flex; /* Aligns images in a row */
@@ -353,7 +345,7 @@ footer {
   width: 250px; /* Adjusts image width */
   height: auto; /* Maintains aspect ratio */
   transition: transform 0.3s ease; /* Adds a hover effect */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Soft shadow effect */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); /* Soft shadow effect */
   border-radius: 7px;
 }
 
@@ -361,7 +353,7 @@ footer {
   width: 250px; /* Adjusts image width */
   height: auto; /* Maintains aspect ratio */
   transition: transform 0.3s ease; /* Adds a hover effect */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Soft shadow effect */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); /* Soft shadow effect */
   border-radius: 7px;
 }
 
@@ -369,7 +361,7 @@ footer {
   width: 250px; /* Adjusts image width */
   height: auto; /* Maintains aspect ratio */
   transition: transform 0.3s ease; /* Adds a hover effect */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Soft shadow effect */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); /* Soft shadow effect */
   border-radius: 7px;
 }
 
@@ -377,7 +369,7 @@ footer {
   width: 400px;
   height: auto; /* Maintains aspect ratio */
   transition: transform 0.3s ease; /* Adds a hover effect */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Soft shadow effect */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); /* Soft shadow effect */
   border-radius: 7px;
 }
 
@@ -416,7 +408,7 @@ footer {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 500;
-  color: black;
+  color: var(--main-navy);
   text-align: center;
   display: block; /* Removes flexbox to allow vertical stacking */
 }
