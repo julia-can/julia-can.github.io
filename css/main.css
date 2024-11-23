@@ -117,11 +117,11 @@ footer {
 }
 
 .copyright-paragraph {
-  font-size: 15px;
+  font-size: 14px;
   margin-top: 32px;
   font-family: "Poppins", sans-serif;
-  font-weight: bold;
-  color: black;
+  font-weight: 500;
+  color: var(--main-navy);
   margin-top: 100px;
 }
 
