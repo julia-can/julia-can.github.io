@@ -36,14 +36,14 @@ body {
 /* My portfolio heading styles */
 .my-portfolio-heading {
   font-family: "Playfair Display", serif;
-  font-size: 32px;
+  font-size: 25px;
   font-weight: 500;
   text-align: center;
   margin: 0;
   position: relative;
-  top: -57px;
-  left: -85px;
-  color: var(--main-navy);
+  top: -56px;
+  left: -105px;
+  color: black;
   z-index: 1;
   animation: slideInFromLeft 1s ease-out;
 }
@@ -99,7 +99,7 @@ header {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  color: black;
+  color: var(--main-navy);
   margin-left: 2rem; /* Space between menu items */
   margin-right: 4rem;
 }
@@ -204,7 +204,7 @@ footer {
 
 /* Styling for the frame text */
 .frame-text {
-  font-family: "Playfair Display", serif;
+  font-family: "Source Serif 4", serif;
   font-weight: 500;
   text-align: center; /* Center the text */
   font-size: 16px; /* Smaller font size than headings */
@@ -493,7 +493,7 @@ footer {
 
 .contact-heading {
   color: var(--main-navy);
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
   font-size: 45px;
   font-weight: 500;
   text-align: center;
@@ -505,7 +505,7 @@ footer {
   margin: 0;
   font-size: 15px;
   color: black;
-  font-family: "Poppins", sans-serif;
+  font-family: "Source Serif 4", serif;
   font-weight: 500;
 }
 
@@ -556,7 +556,7 @@ footer {
 .caption {
   margin-top: 10px;
   color: var(--main-navy);
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
   font-size: 24px;
   font-weight: 500;
 }
@@ -570,6 +570,6 @@ footer {
   font-size: 15px;
   color: black;
   line-height: 1.5;
-  font-family: "Poppins", sans-serif;
+  font-family: "Source Serif 4", serif;
   font-weight: 500;
 }
