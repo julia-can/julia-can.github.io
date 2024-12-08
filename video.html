@@ -5,17 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
     <title>Julia Can</title>
+    <!--linked js, (defer-so that html page loads before js page)
+    <script src="js/main.js" defer></script>
+    <script src="js/constants.js" defer></script>
+    -->
     <!--Linked css-->
     <link rel="stylesheet" href="css/main.css" />
     <!--Linked fonts-->
-    <!--Playfair Display
+    <!--Playfair Display-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
       rel="stylesheet"
     />
-    -->
     <!--Poppins-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,7 +26,7 @@
       href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <!--Source serif 4-->
+    <!--Source Serif 4-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -37,7 +40,6 @@
       <a href="index.html" class="logo-container">
         <img class="logo" src="img/img.logo.svg" alt="Logotype SVG" />
       </a>
-
       <nav>
         <ul class="menu-ul">
           <a href="projects.html">
@@ -53,20 +55,18 @@
       </nav>
     </header>
     <main>
-      <div class="projects-headings-container">
-        <a href="web-development.html">
-          <button class="projects-headings">Web Development</button>
-        </a>
-        <a href="graphic-design.html">
-          <button class="projects-headings">Graphic Design</button>
-        </a>
-        <a href="ux-design.html">
-          <button class="projects-headings">UX Design</button>
-        </a>
-        <a href="video.html">
-          <button class="projects-headings">Video Production</button>
+      <p class="spec-heading">Videos</p>
+      <div class="video-image-container">
+        <a href="https://youtu.be/x-2OtQXyi20">
+          <img
+            class="video-image"
+            src="img/img.video.avif"
+            alt="Tennis video preview image"
+          />
+          <div class="play-button"></div>
         </a>
       </div>
+      <p class="video-title">JC League Application Video</p>
     </main>
     <footer>
       <div class="footer-paragraph-container">

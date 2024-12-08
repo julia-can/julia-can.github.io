@@ -617,3 +617,68 @@ footer {
   color: white;
   font-size: 40px;
 }
+
+/*VIDEO PAGE*/
+
+.video-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Full width of the page */
+  position: relative; /* Required for overlay */
+}
+
+/* Image styling */
+.video-image {
+  width: 500px; /* Set desired width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 7px;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the button */
+  width: 60px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+  border-radius: 50%; /* Circular button */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s; /* Add transform transition */
+}
+
+/* Play icon */
+.play-button::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 20px solid white; /* Triangle play icon */
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+/* Hover effect on the play button */
+.play-button:hover {
+  background-color: rgba(0, 0, 0, 0.8); /* Darker on hover */
+  transform: translate(-50%, -50%) scale(1.2); /* Increase size by 20% */
+}
+
+.spec-heading {
+  margin: 0;
+  font-size: 24px;
+  margin-bottom: 10px; /* Adds space below the heading */
+  padding-left: 45px;
+}
+
+.video-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-align: center; /* Center the text */
+  font-size: 19px; /* Adjust font size */
+  margin-top: 15px; /* Space between image and heading */
+  color: var(--main-navy); /* Text color */
+}
