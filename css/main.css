@@ -373,17 +373,26 @@ footer {
   border-radius: 7px;
 }
 
-/*Graphic Profile*/
+.graphic-profile-preview-container {
+  flex: 1; /* Flexbox property to make each container flexible */
+}
+
 .graphic-profile-preview-container img {
   width: 550px; /* Adjust width as needed */
   height: auto; /* Maintains aspect ratio */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.08); /* Soft shadow */
   border-radius: 7px;
+  margin-right: -5px; /* Pull the images closer by adjusting the margin */
 }
 
 .graphic-profile-preview-container img:hover {
   transform: scale(1.05); /* Slight enlargement on hover */
+}
+
+.graphic-profile-preview-wrapper {
+  display: flex; /* Align child items in a row */
+  justify-content: flex-start; /* Align items to the left */
 }
 
 /*Social Media marketing*/
