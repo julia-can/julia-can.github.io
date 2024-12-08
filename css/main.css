@@ -395,6 +395,23 @@ footer {
   justify-content: flex-start; /* Align items to the left */
 }
 
+.pb-images-container {
+  display: flex; /* Use flexbox to center the content */
+  justify-content: center; /* Horizontally center the content */
+}
+
+.big-hero-image-container {
+  display: flex; /* Use flexbox to stack images vertically */
+  flex-direction: column; /* Ensure vertical stacking */
+  align-items: center; /* Center-align the images */
+}
+
+.personalbranding-images {
+  display: block; /* Ensure each image is treated as a block element */
+  width: 800px; /* Adjust the size of the images */
+  margin-bottom: 50px; /* Add spacing between images */
+}
+
 /*Social Media marketing*/
 .social-media-images-container {
   display: flex; /* Aligns images in a row */
